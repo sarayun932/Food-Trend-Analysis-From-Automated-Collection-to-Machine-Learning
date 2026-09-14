@@ -18,18 +18,21 @@ Consolidate the daily CSV outputs from Stage 1 into a single dataset, then build
 
 ## Dashboard
 Built in Looker Studio, connected via CSV upload, with:
-- KPI scorecards (total records, unique keywords)
-- Category distribution bar chart
-- Time trend line chart
-- Keyword ranking table
+- KPI scorecards — total records (364), unique keywords (68)
+- Category distribution bar chart (collection count by category)
+- Keyword ranking table (sorted by trend_score, all 68 keywords)
+- Category group bar chart — categories split into "high-interest" (`beverage`, `snack`) vs. "low-interest" (the remaining four), using a calculated field (`category_group`)
+- Bubble scatter — unique keyword count vs. total record count per category, colored by category
+- Daily collection trend, as both a line chart and stacked bar charts (absolute count and percentage share), all sorted chronologically by a calculated date field (`CollectedDate`, parsed from the raw `YYYYMMDD` text column)
 - Category filter control with cross-filtering enabled across all charts
 
-[대시보드 캡처 이미지 (dashboard_screenshot.png)]
+[대시보드 전체 화면 캡처 (dashboard_screenshot.png)]
 
 ## Key Observations
 - **69.1% of keywords (47 of 68) appeared on 2 or more separate collection days** — evidence that most of what's captured is a recurring signal rather than one-off noise.
 - Two keywords — `wellhealthorganic organic food benefits` and `portillo's dr pepper dessert` — appeared on **every single collection day (16/16)**, making them the most consistently persistent trends in the dataset.
 - `silk beverage listeria settlement` appeared on 14 of 16 days and recorded the highest single-day score in the dataset (25,950), suggesting a food-safety story with unusually sustained attention.
+- The category-group split shows `beverage` and `snack` consistently outweighing the other four categories in both keyword count and collection volume, day after day — visible in the stacked daily trend charts, not just in a single-day snapshot.
 
 ## Files
 ```
