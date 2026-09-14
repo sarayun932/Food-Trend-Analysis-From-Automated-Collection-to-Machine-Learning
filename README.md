@@ -14,7 +14,7 @@ Built a Python pipeline using the `pytrends` API to collect rising search querie
 Consolidated the collected data into a Looker Studio dashboard with KPI cards, category breakdowns, a time trend chart, and cross-filtering controls, to make the underlying patterns explorable rather than static.
 
 ### [`02b_visualization_analysis/`](./02b_visualization_analysis) — Deeper Visual Analysis
-Re-examined the same Stage 1 dataset through Power BI to go beyond simple category counts — separating interest *frequency* from *intensity* and *volatility*, and identifying which specific keywords were driving repeated outlier spikes rather than one-off noise.
+Re-examined the same Stage 1 dataset through Looker Studio to go beyond simple category counts — separating interest *frequency* from *intensity* and *volatility*, and identifying which specific keywords were driving repeated outlier spikes rather than one-off noise.
 
 ### [`03_ml_analysis/`](./03_ml_analysis) — Statistical & ML-Based Pattern Discovery
 Collected a complementary 5-year weekly time series (via `pytrends`' `interest_over_time`) for the same seven categories, then applied correlation analysis, K-means clustering, PCA, and two independent model-interpretation methods (SHAP, LIME) to uncover structure that wasn't visible from the dashboard alone.
@@ -28,14 +28,14 @@ Collected a complementary 5-year weekly time series (via `pytrends`' `interest_o
 - **`food delivery` tells its own story.** Rather than a seasonal pattern, it shows a multi-year structural swing — peaking during 2021 (pandemic-era demand), declining through 2024, and recovering into 2025–2026 — a trend visible only because a longer time series was collected specifically for this purpose.
 
 ## Tech Stack
-Python (`pytrends`, `pandas`, `scikit-learn`, `shap`, `lime`, `matplotlib`, `seaborn`) · SQLite · macOS `cron` · Looker Studio · Power BI
+Python (`pytrends`, `pandas`, `scikit-learn`, `shap`, `lime`, `matplotlib`, `seaborn`) · SQLite · macOS `cron` · Looker Studio
 
 ## Repository Structure
 ```
 food-trend-analysis/
 ├── 01_data_pipeline/            # Collection, filtering, automation
 ├── 02_dashboard/                # Looker Studio dashboard source data + screenshots
-├── 02b_visualization_analysis/  # Power BI: intensity, volatility, outlier analysis
+├── 02b_visualization_analysis/  # Looker Studio: intensity, volatility, outlier analysis
 ├── 03_ml_analysis/              # Correlation, clustering, PCA, SHAP, LIME
 └── reports/                     # Written summary report (Word)
 ```
