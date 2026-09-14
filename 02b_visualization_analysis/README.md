@@ -1,7 +1,7 @@
 # Stage 2b: Visualization Analysis
 
 ## Purpose
-Re-examine the same keyword-level data from Stage 1 (automated daily collection) through Power BI, going beyond simple category counts to ask: do categories with similar collection *counts* also show similar *interest intensity*? And separately, is "how often a category appears" the same thing as "how stable it is day to day"?
+Re-examine the same keyword-level data from Stage 1 (automated daily collection) through Looker Studio, going beyond simple category counts to ask: do categories with similar collection *counts* also show similar *interest intensity*? And separately, is "how often a category appears" the same thing as "how stable it is day to day"?
 
 ## Data
 Same dataset as `01_data_pipeline` / `02_dashboard`: keyword-level rising search data (`query`, `category`, `trend_score`), 364 records across 16 collection days (2026-08-19 to 2026-09-13, with a few gaps).
@@ -61,7 +61,7 @@ Same dataset as `01_data_pipeline` / `02_dashboard`: keyword-level rising search
 
 ## Files
 ```
-├── dashboard_full.png             # Power BI dashboard: bubble chart, pie chart, daily table
+├── dashboard_full.png             # Looker Studio dashboard: bubble chart, pie chart, daily table
 ├── food_trends_merged.csv         # Source data (same as 01_data_pipeline / 02_dashboard)
 └── README.md
 ```
