@@ -1,0 +1,1835 @@
+week,category,interest_score
+2021-09-05,beverage,37
+2021-09-12,beverage,35
+2021-09-19,beverage,36
+2021-09-26,beverage,33
+2021-10-03,beverage,32
+2021-10-10,beverage,31
+2021-10-17,beverage,31
+2021-10-24,beverage,33
+2021-10-31,beverage,32
+2021-11-07,beverage,33
+2021-11-14,beverage,35
+2021-11-21,beverage,37
+2021-11-28,beverage,34
+2021-12-05,beverage,34
+2021-12-12,beverage,35
+2021-12-19,beverage,40
+2021-12-26,beverage,31
+2022-01-02,beverage,29
+2022-01-09,beverage,31
+2022-01-16,beverage,29
+2022-01-23,beverage,32
+2022-01-30,beverage,38
+2022-02-06,beverage,36
+2022-02-13,beverage,36
+2022-02-20,beverage,37
+2022-02-27,beverage,34
+2022-03-06,beverage,38
+2022-03-13,beverage,35
+2022-03-20,beverage,38
+2022-03-27,beverage,37
+2022-04-03,beverage,37
+2022-04-10,beverage,38
+2022-04-17,beverage,38
+2022-04-24,beverage,38
+2022-05-01,beverage,40
+2022-05-08,beverage,39
+2022-05-15,beverage,40
+2022-05-22,beverage,40
+2022-05-29,beverage,41
+2022-06-05,beverage,38
+2022-06-12,beverage,40
+2022-06-19,beverage,42
+2022-06-26,beverage,43
+2022-07-03,beverage,43
+2022-07-10,beverage,42
+2022-07-17,beverage,41
+2022-07-24,beverage,39
+2022-07-31,beverage,39
+2022-08-07,beverage,40
+2022-08-14,beverage,41
+2022-08-21,beverage,37
+2022-08-28,beverage,39
+2022-09-04,beverage,37
+2022-09-11,beverage,37
+2022-09-18,beverage,35
+2022-09-25,beverage,33
+2022-10-02,beverage,35
+2022-10-09,beverage,34
+2022-10-16,beverage,34
+2022-10-23,beverage,35
+2022-10-30,beverage,36
+2022-11-06,beverage,35
+2022-11-13,beverage,35
+2022-11-20,beverage,37
+2022-11-27,beverage,33
+2022-12-04,beverage,36
+2022-12-11,beverage,37
+2022-12-18,beverage,38
+2022-12-25,beverage,35
+2023-01-01,beverage,32
+2023-01-08,beverage,34
+2023-01-15,beverage,34
+2023-01-22,beverage,37
+2023-01-29,beverage,37
+2023-02-05,beverage,37
+2023-02-12,beverage,37
+2023-02-19,beverage,35
+2023-02-26,beverage,36
+2023-03-05,beverage,35
+2023-03-12,beverage,35
+2023-03-19,beverage,36
+2023-03-26,beverage,38
+2023-04-02,beverage,39
+2023-04-09,beverage,38
+2023-04-16,beverage,39
+2023-04-23,beverage,38
+2023-04-30,beverage,39
+2023-05-07,beverage,37
+2023-05-14,beverage,38
+2023-05-21,beverage,41
+2023-05-28,beverage,43
+2023-06-04,beverage,39
+2023-06-11,beverage,43
+2023-06-18,beverage,42
+2023-06-25,beverage,42
+2023-07-02,beverage,43
+2023-07-09,beverage,42
+2023-07-16,beverage,42
+2023-07-23,beverage,40
+2023-07-30,beverage,40
+2023-08-06,beverage,39
+2023-08-13,beverage,38
+2023-08-20,beverage,37
+2023-08-27,beverage,36
+2023-09-03,beverage,36
+2023-09-10,beverage,36
+2023-09-17,beverage,36
+2023-09-24,beverage,35
+2023-10-01,beverage,34
+2023-10-08,beverage,35
+2023-10-15,beverage,35
+2023-10-22,beverage,36
+2023-10-29,beverage,35
+2023-11-05,beverage,36
+2023-11-12,beverage,36
+2023-11-19,beverage,37
+2023-11-26,beverage,38
+2023-12-03,beverage,36
+2023-12-10,beverage,38
+2023-12-17,beverage,38
+2023-12-24,beverage,37
+2023-12-31,beverage,37
+2024-01-07,beverage,35
+2024-01-14,beverage,34
+2024-01-21,beverage,35
+2024-01-28,beverage,37
+2024-02-04,beverage,38
+2024-02-11,beverage,34
+2024-02-18,beverage,36
+2024-02-25,beverage,36
+2024-03-03,beverage,35
+2024-03-10,beverage,38
+2024-03-17,beverage,48
+2024-03-24,beverage,36
+2024-03-31,beverage,37
+2024-04-07,beverage,36
+2024-04-14,beverage,39
+2024-04-21,beverage,39
+2024-04-28,beverage,39
+2024-05-05,beverage,38
+2024-05-12,beverage,39
+2024-05-19,beverage,44
+2024-05-26,beverage,41
+2024-06-02,beverage,40
+2024-06-09,beverage,42
+2024-06-16,beverage,41
+2024-06-23,beverage,41
+2024-06-30,beverage,43
+2024-07-07,beverage,48
+2024-07-14,beverage,38
+2024-07-21,beverage,40
+2024-07-28,beverage,37
+2024-08-04,beverage,37
+2024-08-11,beverage,38
+2024-08-18,beverage,40
+2024-08-25,beverage,39
+2024-09-01,beverage,39
+2024-09-08,beverage,38
+2024-09-15,beverage,39
+2024-09-22,beverage,35
+2024-09-29,beverage,36
+2024-10-06,beverage,34
+2024-10-13,beverage,34
+2024-10-20,beverage,37
+2024-10-27,beverage,34
+2024-11-03,beverage,32
+2024-11-10,beverage,37
+2024-11-17,beverage,37
+2024-11-24,beverage,38
+2024-12-01,beverage,36
+2024-12-08,beverage,36
+2024-12-15,beverage,37
+2024-12-22,beverage,34
+2024-12-29,beverage,37
+2025-01-05,beverage,34
+2025-01-12,beverage,34
+2025-01-19,beverage,34
+2025-01-26,beverage,37
+2025-02-02,beverage,36
+2025-02-09,beverage,33
+2025-02-16,beverage,37
+2025-02-23,beverage,36
+2025-03-02,beverage,35
+2025-03-09,beverage,34
+2025-03-16,beverage,38
+2025-03-23,beverage,38
+2025-03-30,beverage,38
+2025-04-06,beverage,38
+2025-04-13,beverage,37
+2025-04-20,beverage,39
+2025-04-27,beverage,55
+2025-05-04,beverage,43
+2025-05-11,beverage,41
+2025-05-18,beverage,40
+2025-05-25,beverage,40
+2025-06-01,beverage,42
+2025-06-08,beverage,44
+2025-06-15,beverage,44
+2025-06-22,beverage,46
+2025-06-29,beverage,46
+2025-07-06,beverage,46
+2025-07-13,beverage,51
+2025-07-20,beverage,53
+2025-07-27,beverage,59
+2025-08-03,beverage,52
+2025-08-10,beverage,48
+2025-08-17,beverage,42
+2025-08-24,beverage,44
+2025-08-31,beverage,43
+2025-09-07,beverage,39
+2025-09-14,beverage,43
+2025-09-21,beverage,44
+2025-09-28,beverage,39
+2025-10-05,beverage,42
+2025-10-12,beverage,39
+2025-10-19,beverage,41
+2025-10-26,beverage,42
+2025-11-02,beverage,48
+2025-11-09,beverage,48
+2025-11-16,beverage,47
+2025-11-23,beverage,46
+2025-11-30,beverage,48
+2025-12-07,beverage,49
+2025-12-14,beverage,48
+2025-12-21,beverage,46
+2025-12-28,beverage,45
+2026-01-04,beverage,44
+2026-01-11,beverage,49
+2026-01-18,beverage,48
+2026-01-25,beverage,53
+2026-02-01,beverage,58
+2026-02-08,beverage,58
+2026-02-15,beverage,65
+2026-02-22,beverage,61
+2026-03-01,beverage,60
+2026-03-08,beverage,54
+2026-03-15,beverage,57
+2026-03-22,beverage,59
+2026-03-29,beverage,77
+2026-04-05,beverage,92
+2026-04-12,beverage,100
+2026-04-19,beverage,82
+2026-04-26,beverage,71
+2026-05-03,beverage,74
+2026-05-10,beverage,81
+2026-05-17,beverage,93
+2026-05-24,beverage,79
+2026-05-31,beverage,90
+2026-06-07,beverage,90
+2026-06-14,beverage,87
+2026-06-21,beverage,82
+2026-06-28,beverage,70
+2026-07-05,beverage,65
+2026-07-12,beverage,53
+2026-07-19,beverage,52
+2026-07-26,beverage,48
+2026-08-02,beverage,47
+2026-08-09,beverage,51
+2026-08-16,beverage,46
+2026-08-23,beverage,42
+2026-08-30,beverage,40
+2026-09-06,beverage,39
+2021-09-05,dessert,57
+2021-09-12,dessert,53
+2021-09-19,dessert,55
+2021-09-26,dessert,52
+2021-10-03,dessert,52
+2021-10-10,dessert,60
+2021-10-17,dessert,56
+2021-10-24,dessert,56
+2021-10-31,dessert,56
+2021-11-07,dessert,63
+2021-11-14,dessert,68
+2021-11-21,dessert,83
+2021-11-28,dessert,52
+2021-12-05,dessert,56
+2021-12-12,dessert,63
+2021-12-19,dessert,80
+2021-12-26,dessert,61
+2022-01-02,dessert,52
+2022-01-09,dessert,54
+2022-01-16,dessert,52
+2022-01-23,dessert,55
+2022-01-30,dessert,58
+2022-02-06,dessert,63
+2022-02-13,dessert,62
+2022-02-20,dessert,62
+2022-02-27,dessert,59
+2022-03-06,dessert,62
+2022-03-13,dessert,70
+2022-03-20,dessert,65
+2022-03-27,dessert,61
+2022-04-03,dessert,64
+2022-04-10,dessert,81
+2022-04-17,dessert,63
+2022-04-24,dessert,58
+2022-05-01,dessert,67
+2022-05-08,dessert,62
+2022-05-15,dessert,60
+2022-05-22,dessert,62
+2022-05-29,dessert,61
+2022-06-05,dessert,61
+2022-06-12,dessert,66
+2022-06-19,dessert,68
+2022-06-26,dessert,69
+2022-07-03,dessert,69
+2022-07-10,dessert,66
+2022-07-17,dessert,65
+2022-07-24,dessert,63
+2022-07-31,dessert,62
+2022-08-07,dessert,68
+2022-08-14,dessert,62
+2022-08-21,dessert,60
+2022-08-28,dessert,57
+2022-09-04,dessert,61
+2022-09-11,dessert,57
+2022-09-18,dessert,55
+2022-09-25,dessert,55
+2022-10-02,dessert,57
+2022-10-09,dessert,60
+2022-10-16,dessert,60
+2022-10-23,dessert,57
+2022-10-30,dessert,57
+2022-11-06,dessert,61
+2022-11-13,dessert,74
+2022-11-20,dessert,88
+2022-11-27,dessert,53
+2022-12-04,dessert,60
+2022-12-11,dessert,67
+2022-12-18,dessert,79
+2022-12-25,dessert,71
+2023-01-01,dessert,57
+2023-01-08,dessert,55
+2023-01-15,dessert,58
+2023-01-22,dessert,64
+2023-01-29,dessert,60
+2023-02-05,dessert,66
+2023-02-12,dessert,64
+2023-02-19,dessert,62
+2023-02-26,dessert,60
+2023-03-05,dessert,62
+2023-03-12,dessert,68
+2023-03-19,dessert,62
+2023-03-26,dessert,66
+2023-04-02,dessert,81
+2023-04-09,dessert,62
+2023-04-16,dessert,61
+2023-04-23,dessert,63
+2023-04-30,dessert,62
+2023-05-07,dessert,63
+2023-05-14,dessert,67
+2023-05-21,dessert,68
+2023-05-28,dessert,69
+2023-06-04,dessert,61
+2023-06-11,dessert,67
+2023-06-18,dessert,64
+2023-06-25,dessert,74
+2023-07-02,dessert,79
+2023-07-09,dessert,65
+2023-07-16,dessert,62
+2023-07-23,dessert,65
+2023-07-30,dessert,62
+2023-08-06,dessert,65
+2023-08-13,dessert,61
+2023-08-20,dessert,60
+2023-08-27,dessert,61
+2023-09-03,dessert,62
+2023-09-10,dessert,56
+2023-09-17,dessert,58
+2023-09-24,dessert,61
+2023-10-01,dessert,60
+2023-10-08,dessert,62
+2023-10-15,dessert,59
+2023-10-22,dessert,60
+2023-10-29,dessert,56
+2023-11-05,dessert,65
+2023-11-12,dessert,79
+2023-11-19,dessert,90
+2023-11-26,dessert,60
+2023-12-03,dessert,64
+2023-12-10,dessert,69
+2023-12-17,dessert,85
+2023-12-24,dessert,73
+2023-12-31,dessert,61
+2024-01-07,dessert,57
+2024-01-14,dessert,60
+2024-01-21,dessert,62
+2024-01-28,dessert,60
+2024-02-04,dessert,68
+2024-02-11,dessert,65
+2024-02-18,dessert,59
+2024-02-25,dessert,60
+2024-03-03,dessert,60
+2024-03-10,dessert,68
+2024-03-17,dessert,68
+2024-03-24,dessert,76
+2024-03-31,dessert,60
+2024-04-07,dessert,61
+2024-04-14,dessert,60
+2024-04-21,dessert,64
+2024-04-28,dessert,63
+2024-05-05,dessert,66
+2024-05-12,dessert,62
+2024-05-19,dessert,63
+2024-05-26,dessert,66
+2024-06-02,dessert,59
+2024-06-09,dessert,62
+2024-06-16,dessert,62
+2024-06-23,dessert,65
+2024-06-30,dessert,75
+2024-07-07,dessert,62
+2024-07-14,dessert,61
+2024-07-21,dessert,63
+2024-07-28,dessert,61
+2024-08-04,dessert,60
+2024-08-11,dessert,58
+2024-08-18,dessert,59
+2024-08-25,dessert,58
+2024-09-01,dessert,61
+2024-09-08,dessert,56
+2024-09-15,dessert,59
+2024-09-22,dessert,55
+2024-09-29,dessert,55
+2024-10-06,dessert,58
+2024-10-13,dessert,64
+2024-10-20,dessert,60
+2024-10-27,dessert,64
+2024-11-03,dessert,57
+2024-11-10,dessert,69
+2024-11-17,dessert,75
+2024-11-24,dessert,92
+2024-12-01,dessert,58
+2024-12-08,dessert,63
+2024-12-15,dessert,75
+2024-12-22,dessert,83
+2024-12-29,dessert,70
+2025-01-05,dessert,57
+2025-01-12,dessert,60
+2025-01-19,dessert,62
+2025-01-26,dessert,61
+2025-02-02,dessert,65
+2025-02-09,dessert,68
+2025-02-16,dessert,70
+2025-02-23,dessert,61
+2025-03-02,dessert,64
+2025-03-09,dessert,68
+2025-03-16,dessert,71
+2025-03-23,dessert,68
+2025-03-30,dessert,66
+2025-04-06,dessert,67
+2025-04-13,dessert,82
+2025-04-20,dessert,64
+2025-04-27,dessert,65
+2025-05-04,dessert,69
+2025-05-11,dessert,70
+2025-05-18,dessert,69
+2025-05-25,dessert,70
+2025-06-01,dessert,63
+2025-06-08,dessert,77
+2025-06-15,dessert,69
+2025-06-22,dessert,69
+2025-06-29,dessert,81
+2025-07-06,dessert,69
+2025-07-13,dessert,74
+2025-07-20,dessert,73
+2025-07-27,dessert,74
+2025-08-03,dessert,70
+2025-08-10,dessert,66
+2025-08-17,dessert,62
+2025-08-24,dessert,63
+2025-08-31,dessert,65
+2025-09-07,dessert,57
+2025-09-14,dessert,62
+2025-09-21,dessert,65
+2025-09-28,dessert,61
+2025-10-05,dessert,64
+2025-10-12,dessert,71
+2025-10-19,dessert,64
+2025-10-26,dessert,57
+2025-11-02,dessert,67
+2025-11-09,dessert,73
+2025-11-16,dessert,84
+2025-11-23,dessert,98
+2025-11-30,dessert,70
+2025-12-07,dessert,79
+2025-12-14,dessert,83
+2025-12-21,dessert,98
+2025-12-28,dessert,90
+2026-01-04,dessert,67
+2026-01-11,dessert,71
+2026-01-18,dessert,73
+2026-01-25,dessert,70
+2026-02-01,dessert,78
+2026-02-08,dessert,85
+2026-02-15,dessert,80
+2026-02-22,dessert,78
+2026-03-01,dessert,71
+2026-03-08,dessert,80
+2026-03-15,dessert,78
+2026-03-22,dessert,79
+2026-03-29,dessert,100
+2026-04-05,dessert,85
+2026-04-12,dessert,81
+2026-04-19,dessert,81
+2026-04-26,dessert,76
+2026-05-03,dessert,79
+2026-05-10,dessert,77
+2026-05-17,dessert,80
+2026-05-24,dessert,83
+2026-05-31,dessert,77
+2026-06-07,dessert,81
+2026-06-14,dessert,83
+2026-06-21,dessert,84
+2026-06-28,dessert,94
+2026-07-05,dessert,77
+2026-07-12,dessert,71
+2026-07-19,dessert,70
+2026-07-26,dessert,73
+2026-08-02,dessert,72
+2026-08-09,dessert,70
+2026-08-16,dessert,68
+2026-08-23,dessert,66
+2026-08-30,dessert,69
+2026-09-06,dessert,96
+2021-09-05,drink,53
+2021-09-12,drink,52
+2021-09-19,drink,49
+2021-09-26,drink,48
+2021-10-03,drink,49
+2021-10-10,drink,50
+2021-10-17,drink,51
+2021-10-24,drink,49
+2021-10-31,drink,48
+2021-11-07,drink,53
+2021-11-14,drink,51
+2021-11-21,drink,51
+2021-11-28,drink,51
+2021-12-05,drink,50
+2021-12-12,drink,55
+2021-12-19,drink,56
+2021-12-26,drink,62
+2022-01-02,drink,57
+2022-01-09,drink,58
+2022-01-16,drink,53
+2022-01-23,drink,56
+2022-01-30,drink,55
+2022-02-06,drink,60
+2022-02-13,drink,57
+2022-02-20,drink,58
+2022-02-27,drink,59
+2022-03-06,drink,60
+2022-03-13,drink,65
+2022-03-20,drink,56
+2022-03-27,drink,58
+2022-04-03,drink,54
+2022-04-10,drink,56
+2022-04-17,drink,61
+2022-04-24,drink,59
+2022-05-01,drink,60
+2022-05-08,drink,63
+2022-05-15,drink,65
+2022-05-22,drink,60
+2022-05-29,drink,64
+2022-06-05,drink,66
+2022-06-12,drink,64
+2022-06-19,drink,67
+2022-06-26,drink,67
+2022-07-03,drink,68
+2022-07-10,drink,71
+2022-07-17,drink,68
+2022-07-24,drink,66
+2022-07-31,drink,64
+2022-08-07,drink,65
+2022-08-14,drink,64
+2022-08-21,drink,61
+2022-08-28,drink,59
+2022-09-04,drink,55
+2022-09-11,drink,57
+2022-09-18,drink,57
+2022-09-25,drink,57
+2022-10-02,drink,58
+2022-10-09,drink,56
+2022-10-16,drink,56
+2022-10-23,drink,58
+2022-10-30,drink,57
+2022-11-06,drink,50
+2022-11-13,drink,59
+2022-11-20,drink,61
+2022-11-27,drink,53
+2022-12-04,drink,57
+2022-12-11,drink,59
+2022-12-18,drink,61
+2022-12-25,drink,70
+2023-01-01,drink,62
+2023-01-08,drink,60
+2023-01-15,drink,65
+2023-01-22,drink,61
+2023-01-29,drink,66
+2023-02-05,drink,64
+2023-02-12,drink,65
+2023-02-19,drink,67
+2023-02-26,drink,66
+2023-03-05,drink,68
+2023-03-12,drink,70
+2023-03-19,drink,68
+2023-03-26,drink,66
+2023-04-02,drink,67
+2023-04-09,drink,66
+2023-04-16,drink,69
+2023-04-23,drink,70
+2023-04-30,drink,67
+2023-05-07,drink,66
+2023-05-14,drink,68
+2023-05-21,drink,71
+2023-05-28,drink,70
+2023-06-04,drink,68
+2023-06-11,drink,69
+2023-06-18,drink,71
+2023-06-25,drink,69
+2023-07-02,drink,76
+2023-07-09,drink,72
+2023-07-16,drink,67
+2023-07-23,drink,69
+2023-07-30,drink,65
+2023-08-06,drink,67
+2023-08-13,drink,64
+2023-08-20,drink,64
+2023-08-27,drink,62
+2023-09-03,drink,62
+2023-09-10,drink,63
+2023-09-17,drink,62
+2023-09-24,drink,61
+2023-10-01,drink,61
+2023-10-08,drink,63
+2023-10-15,drink,58
+2023-10-22,drink,61
+2023-10-29,drink,57
+2023-11-05,drink,59
+2023-11-12,drink,60
+2023-11-19,drink,60
+2023-11-26,drink,57
+2023-12-03,drink,57
+2023-12-10,drink,62
+2023-12-17,drink,64
+2023-12-24,drink,68
+2023-12-31,drink,72
+2024-01-07,drink,63
+2024-01-14,drink,59
+2024-01-21,drink,61
+2024-01-28,drink,63
+2024-02-04,drink,65
+2024-02-11,drink,61
+2024-02-18,drink,63
+2024-02-25,drink,57
+2024-03-03,drink,60
+2024-03-10,drink,63
+2024-03-17,drink,68
+2024-03-24,drink,68
+2024-03-31,drink,64
+2024-04-07,drink,62
+2024-04-14,drink,64
+2024-04-21,drink,68
+2024-04-28,drink,65
+2024-05-05,drink,71
+2024-05-12,drink,67
+2024-05-19,drink,72
+2024-05-26,drink,72
+2024-06-02,drink,66
+2024-06-09,drink,74
+2024-06-16,drink,70
+2024-06-23,drink,72
+2024-06-30,drink,73
+2024-07-07,drink,65
+2024-07-14,drink,69
+2024-07-21,drink,66
+2024-07-28,drink,65
+2024-08-04,drink,64
+2024-08-11,drink,66
+2024-08-18,drink,66
+2024-08-25,drink,63
+2024-09-01,drink,64
+2024-09-08,drink,61
+2024-09-15,drink,62
+2024-09-22,drink,61
+2024-09-29,drink,64
+2024-10-06,drink,61
+2024-10-13,drink,62
+2024-10-20,drink,61
+2024-10-27,drink,61
+2024-11-03,drink,55
+2024-11-10,drink,62
+2024-11-17,drink,64
+2024-11-24,drink,66
+2024-12-01,drink,61
+2024-12-08,drink,68
+2024-12-15,drink,67
+2024-12-22,drink,76
+2024-12-29,drink,78
+2025-01-05,drink,67
+2025-01-12,drink,67
+2025-01-19,drink,68
+2025-01-26,drink,69
+2025-02-02,drink,68
+2025-02-09,drink,67
+2025-02-16,drink,69
+2025-02-23,drink,67
+2025-03-02,drink,67
+2025-03-09,drink,71
+2025-03-16,drink,73
+2025-03-23,drink,68
+2025-03-30,drink,68
+2025-04-06,drink,67
+2025-04-13,drink,70
+2025-04-20,drink,69
+2025-04-27,drink,71
+2025-05-04,drink,73
+2025-05-11,drink,73
+2025-05-18,drink,74
+2025-05-25,drink,76
+2025-06-01,drink,73
+2025-06-08,drink,75
+2025-06-15,drink,75
+2025-06-22,drink,74
+2025-06-29,drink,78
+2025-07-06,drink,78
+2025-07-13,drink,79
+2025-07-20,drink,85
+2025-07-27,drink,82
+2025-08-03,drink,78
+2025-08-10,drink,75
+2025-08-17,drink,73
+2025-08-24,drink,72
+2025-08-31,drink,72
+2025-09-07,drink,66
+2025-09-14,drink,67
+2025-09-21,drink,69
+2025-09-28,drink,68
+2025-10-05,drink,70
+2025-10-12,drink,70
+2025-10-19,drink,70
+2025-10-26,drink,69
+2025-11-02,drink,66
+2025-11-09,drink,71
+2025-11-16,drink,75
+2025-11-23,drink,71
+2025-11-30,drink,71
+2025-12-07,drink,75
+2025-12-14,drink,77
+2025-12-21,drink,82
+2025-12-28,drink,81
+2026-01-04,drink,78
+2026-01-11,drink,78
+2026-01-18,drink,78
+2026-01-25,drink,75
+2026-02-01,drink,77
+2026-02-08,drink,74
+2026-02-15,drink,80
+2026-02-22,drink,79
+2026-03-01,drink,79
+2026-03-08,drink,78
+2026-03-15,drink,84
+2026-03-22,drink,82
+2026-03-29,drink,87
+2026-04-05,drink,96
+2026-04-12,drink,100
+2026-04-19,drink,90
+2026-04-26,drink,91
+2026-05-03,drink,87
+2026-05-10,drink,88
+2026-05-17,drink,94
+2026-05-24,drink,95
+2026-05-31,drink,93
+2026-06-07,drink,96
+2026-06-14,drink,94
+2026-06-21,drink,99
+2026-06-28,drink,92
+2026-07-05,drink,86
+2026-07-12,drink,88
+2026-07-19,drink,85
+2026-07-26,drink,85
+2026-08-02,drink,84
+2026-08-09,drink,85
+2026-08-16,drink,84
+2026-08-23,drink,84
+2026-08-30,drink,80
+2026-09-06,drink,94
+2021-09-05,fast food,58
+2021-09-12,fast food,54
+2021-09-19,fast food,53
+2021-09-26,fast food,55
+2021-10-03,fast food,53
+2021-10-10,fast food,54
+2021-10-17,fast food,51
+2021-10-24,fast food,52
+2021-10-31,fast food,56
+2021-11-07,fast food,50
+2021-11-14,fast food,50
+2021-11-21,fast food,63
+2021-11-28,fast food,48
+2021-12-05,fast food,47
+2021-12-12,fast food,48
+2021-12-19,fast food,77
+2021-12-26,fast food,67
+2022-01-02,fast food,46
+2022-01-09,fast food,45
+2022-01-16,fast food,41
+2022-01-23,fast food,42
+2022-01-30,fast food,44
+2022-02-06,fast food,46
+2022-02-13,fast food,45
+2022-02-20,fast food,51
+2022-02-27,fast food,50
+2022-03-06,fast food,48
+2022-03-13,fast food,53
+2022-03-20,fast food,53
+2022-03-27,fast food,50
+2022-04-03,fast food,50
+2022-04-10,fast food,54
+2022-04-17,fast food,53
+2022-04-24,fast food,52
+2022-05-01,fast food,50
+2022-05-08,fast food,50
+2022-05-15,fast food,51
+2022-05-22,fast food,52
+2022-05-29,fast food,55
+2022-06-05,fast food,55
+2022-06-12,fast food,58
+2022-06-19,fast food,57
+2022-06-26,fast food,57
+2022-07-03,fast food,63
+2022-07-10,fast food,60
+2022-07-17,fast food,57
+2022-07-24,fast food,58
+2022-07-31,fast food,57
+2022-08-07,fast food,56
+2022-08-14,fast food,55
+2022-08-21,fast food,50
+2022-08-28,fast food,53
+2022-09-04,fast food,55
+2022-09-11,fast food,51
+2022-09-18,fast food,52
+2022-09-25,fast food,51
+2022-10-02,fast food,52
+2022-10-09,fast food,52
+2022-10-16,fast food,49
+2022-10-23,fast food,49
+2022-10-30,fast food,48
+2022-11-06,fast food,45
+2022-11-13,fast food,46
+2022-11-20,fast food,58
+2022-11-27,fast food,43
+2022-12-04,fast food,46
+2022-12-11,fast food,45
+2022-12-18,fast food,46
+2022-12-25,fast food,77
+2023-01-01,fast food,52
+2023-01-08,fast food,43
+2023-01-15,fast food,45
+2023-01-22,fast food,44
+2023-01-29,fast food,46
+2023-02-05,fast food,46
+2023-02-12,fast food,46
+2023-02-19,fast food,51
+2023-02-26,fast food,51
+2023-03-05,fast food,47
+2023-03-12,fast food,49
+2023-03-19,fast food,51
+2023-03-26,fast food,53
+2023-04-02,fast food,51
+2023-04-09,fast food,53
+2023-04-16,fast food,48
+2023-04-23,fast food,48
+2023-04-30,fast food,48
+2023-05-07,fast food,48
+2023-05-14,fast food,51
+2023-05-21,fast food,54
+2023-05-28,fast food,56
+2023-06-04,fast food,57
+2023-06-11,fast food,59
+2023-06-18,fast food,55
+2023-06-25,fast food,59
+2023-07-02,fast food,62
+2023-07-09,fast food,56
+2023-07-16,fast food,54
+2023-07-23,fast food,57
+2023-07-30,fast food,54
+2023-08-06,fast food,52
+2023-08-13,fast food,51
+2023-08-20,fast food,49
+2023-08-27,fast food,50
+2023-09-03,fast food,50
+2023-09-10,fast food,50
+2023-09-17,fast food,50
+2023-09-24,fast food,48
+2023-10-01,fast food,50
+2023-10-08,fast food,49
+2023-10-15,fast food,48
+2023-10-22,fast food,48
+2023-10-29,fast food,47
+2023-11-05,fast food,47
+2023-11-12,fast food,47
+2023-11-19,fast food,57
+2023-11-26,fast food,45
+2023-12-03,fast food,44
+2023-12-10,fast food,45
+2023-12-17,fast food,45
+2023-12-24,fast food,79
+2023-12-31,fast food,52
+2024-01-07,fast food,43
+2024-01-14,fast food,39
+2024-01-21,fast food,40
+2024-01-28,fast food,41
+2024-02-04,fast food,42
+2024-02-11,fast food,42
+2024-02-18,fast food,44
+2024-02-25,fast food,51
+2024-03-03,fast food,47
+2024-03-10,fast food,49
+2024-03-17,fast food,46
+2024-03-24,fast food,56
+2024-03-31,fast food,65
+2024-04-07,fast food,54
+2024-04-14,fast food,48
+2024-04-21,fast food,49
+2024-04-28,fast food,48
+2024-05-05,fast food,47
+2024-05-12,fast food,46
+2024-05-19,fast food,50
+2024-05-26,fast food,51
+2024-06-02,fast food,51
+2024-06-09,fast food,50
+2024-06-16,fast food,50
+2024-06-23,fast food,53
+2024-06-30,fast food,54
+2024-07-07,fast food,54
+2024-07-14,fast food,52
+2024-07-21,fast food,57
+2024-07-28,fast food,56
+2024-08-04,fast food,52
+2024-08-11,fast food,51
+2024-08-18,fast food,52
+2024-08-25,fast food,50
+2024-09-01,fast food,50
+2024-09-08,fast food,49
+2024-09-15,fast food,49
+2024-09-22,fast food,50
+2024-09-29,fast food,48
+2024-10-06,fast food,54
+2024-10-13,fast food,51
+2024-10-20,fast food,51
+2024-10-27,fast food,53
+2024-11-03,fast food,43
+2024-11-10,fast food,47
+2024-11-17,fast food,48
+2024-11-24,fast food,62
+2024-12-01,fast food,45
+2024-12-08,fast food,45
+2024-12-15,fast food,46
+2024-12-22,fast food,86
+2024-12-29,fast food,59
+2025-01-05,fast food,44
+2025-01-12,fast food,44
+2025-01-19,fast food,48
+2025-01-26,fast food,50
+2025-02-02,fast food,48
+2025-02-09,fast food,46
+2025-02-16,fast food,52
+2025-02-23,fast food,55
+2025-03-02,fast food,55
+2025-03-09,fast food,54
+2025-03-16,fast food,58
+2025-03-23,fast food,55
+2025-03-30,fast food,54
+2025-04-06,fast food,55
+2025-04-13,fast food,58
+2025-04-20,fast food,59
+2025-04-27,fast food,54
+2025-05-04,fast food,49
+2025-05-11,fast food,48
+2025-05-18,fast food,51
+2025-05-25,fast food,54
+2025-06-01,fast food,54
+2025-06-08,fast food,54
+2025-06-15,fast food,54
+2025-06-22,fast food,57
+2025-06-29,fast food,60
+2025-07-06,fast food,58
+2025-07-13,fast food,59
+2025-07-20,fast food,63
+2025-07-27,fast food,59
+2025-08-03,fast food,58
+2025-08-10,fast food,54
+2025-08-17,fast food,58
+2025-08-24,fast food,51
+2025-08-31,fast food,51
+2025-09-07,fast food,48
+2025-09-14,fast food,49
+2025-09-21,fast food,51
+2025-09-28,fast food,56
+2025-10-05,fast food,53
+2025-10-12,fast food,53
+2025-10-19,fast food,52
+2025-10-26,fast food,50
+2025-11-02,fast food,50
+2025-11-09,fast food,52
+2025-11-16,fast food,51
+2025-11-23,fast food,66
+2025-11-30,fast food,51
+2025-12-07,fast food,53
+2025-12-14,fast food,49
+2025-12-21,fast food,100
+2025-12-28,fast food,66
+2026-01-04,fast food,53
+2026-01-11,fast food,51
+2026-01-18,fast food,51
+2026-01-25,fast food,52
+2026-02-01,fast food,54
+2026-02-08,fast food,53
+2026-02-15,fast food,57
+2026-02-22,fast food,59
+2026-03-01,fast food,56
+2026-03-08,fast food,57
+2026-03-15,fast food,57
+2026-03-22,fast food,58
+2026-03-29,fast food,64
+2026-04-05,fast food,67
+2026-04-12,fast food,71
+2026-04-19,fast food,62
+2026-04-26,fast food,55
+2026-05-03,fast food,59
+2026-05-10,fast food,59
+2026-05-17,fast food,58
+2026-05-24,fast food,62
+2026-05-31,fast food,62
+2026-06-07,fast food,64
+2026-06-14,fast food,67
+2026-06-21,fast food,66
+2026-06-28,fast food,64
+2026-07-05,fast food,64
+2026-07-12,fast food,64
+2026-07-19,fast food,64
+2026-07-26,fast food,63
+2026-08-02,fast food,58
+2026-08-09,fast food,56
+2026-08-16,fast food,53
+2026-08-23,fast food,50
+2026-08-30,fast food,53
+2026-09-06,fast food,60
+2021-09-05,food delivery,91
+2021-09-12,food delivery,87
+2021-09-19,food delivery,90
+2021-09-26,food delivery,90
+2021-10-03,food delivery,84
+2021-10-10,food delivery,90
+2021-10-17,food delivery,88
+2021-10-24,food delivery,87
+2021-10-31,food delivery,85
+2021-11-07,food delivery,85
+2021-11-14,food delivery,86
+2021-11-21,food delivery,81
+2021-11-28,food delivery,84
+2021-12-05,food delivery,83
+2021-12-12,food delivery,87
+2021-12-19,food delivery,97
+2021-12-26,food delivery,100
+2022-01-02,food delivery,95
+2022-01-09,food delivery,89
+2022-01-16,food delivery,79
+2022-01-23,food delivery,78
+2022-01-30,food delivery,88
+2022-02-06,food delivery,75
+2022-02-13,food delivery,80
+2022-02-20,food delivery,84
+2022-02-27,food delivery,80
+2022-03-06,food delivery,81
+2022-03-13,food delivery,78
+2022-03-20,food delivery,76
+2022-03-27,food delivery,77
+2022-04-03,food delivery,74
+2022-04-10,food delivery,77
+2022-04-17,food delivery,71
+2022-04-24,food delivery,73
+2022-05-01,food delivery,76
+2022-05-08,food delivery,72
+2022-05-15,food delivery,69
+2022-05-22,food delivery,72
+2022-05-29,food delivery,78
+2022-06-05,food delivery,74
+2022-06-12,food delivery,75
+2022-06-19,food delivery,75
+2022-06-26,food delivery,75
+2022-07-03,food delivery,80
+2022-07-10,food delivery,76
+2022-07-17,food delivery,77
+2022-07-24,food delivery,75
+2022-07-31,food delivery,75
+2022-08-07,food delivery,72
+2022-08-14,food delivery,70
+2022-08-21,food delivery,70
+2022-08-28,food delivery,69
+2022-09-04,food delivery,67
+2022-09-11,food delivery,67
+2022-09-18,food delivery,64
+2022-09-25,food delivery,67
+2022-10-02,food delivery,66
+2022-10-09,food delivery,63
+2022-10-16,food delivery,59
+2022-10-23,food delivery,63
+2022-10-30,food delivery,63
+2022-11-06,food delivery,63
+2022-11-13,food delivery,60
+2022-11-20,food delivery,64
+2022-11-27,food delivery,61
+2022-12-04,food delivery,64
+2022-12-11,food delivery,68
+2022-12-18,food delivery,73
+2022-12-25,food delivery,72
+2023-01-01,food delivery,69
+2023-01-08,food delivery,60
+2023-01-15,food delivery,60
+2023-01-22,food delivery,61
+2023-01-29,food delivery,64
+2023-02-05,food delivery,63
+2023-02-12,food delivery,62
+2023-02-19,food delivery,63
+2023-02-26,food delivery,63
+2023-03-05,food delivery,60
+2023-03-12,food delivery,61
+2023-03-19,food delivery,57
+2023-03-26,food delivery,59
+2023-04-02,food delivery,60
+2023-04-09,food delivery,53
+2023-04-16,food delivery,55
+2023-04-23,food delivery,58
+2023-04-30,food delivery,58
+2023-05-07,food delivery,56
+2023-05-14,food delivery,57
+2023-05-21,food delivery,57
+2023-05-28,food delivery,59
+2023-06-04,food delivery,57
+2023-06-11,food delivery,62
+2023-06-18,food delivery,61
+2023-06-25,food delivery,62
+2023-07-02,food delivery,62
+2023-07-09,food delivery,59
+2023-07-16,food delivery,57
+2023-07-23,food delivery,60
+2023-07-30,food delivery,58
+2023-08-06,food delivery,58
+2023-08-13,food delivery,54
+2023-08-20,food delivery,55
+2023-08-27,food delivery,51
+2023-09-03,food delivery,52
+2023-09-10,food delivery,50
+2023-09-17,food delivery,50
+2023-09-24,food delivery,49
+2023-10-01,food delivery,48
+2023-10-08,food delivery,49
+2023-10-15,food delivery,48
+2023-10-22,food delivery,49
+2023-10-29,food delivery,51
+2023-11-05,food delivery,54
+2023-11-12,food delivery,50
+2023-11-19,food delivery,47
+2023-11-26,food delivery,48
+2023-12-03,food delivery,53
+2023-12-10,food delivery,51
+2023-12-17,food delivery,56
+2023-12-24,food delivery,56
+2023-12-31,food delivery,56
+2024-01-07,food delivery,52
+2024-01-14,food delivery,51
+2024-01-21,food delivery,51
+2024-01-28,food delivery,48
+2024-02-04,food delivery,47
+2024-02-11,food delivery,49
+2024-02-18,food delivery,46
+2024-02-25,food delivery,49
+2024-03-03,food delivery,47
+2024-03-10,food delivery,49
+2024-03-17,food delivery,45
+2024-03-24,food delivery,44
+2024-03-31,food delivery,49
+2024-04-07,food delivery,44
+2024-04-14,food delivery,45
+2024-04-21,food delivery,45
+2024-04-28,food delivery,45
+2024-05-05,food delivery,44
+2024-05-12,food delivery,43
+2024-05-19,food delivery,44
+2024-05-26,food delivery,45
+2024-06-02,food delivery,45
+2024-06-09,food delivery,46
+2024-06-16,food delivery,45
+2024-06-23,food delivery,47
+2024-06-30,food delivery,47
+2024-07-07,food delivery,47
+2024-07-14,food delivery,43
+2024-07-21,food delivery,47
+2024-07-28,food delivery,48
+2024-08-04,food delivery,44
+2024-08-11,food delivery,42
+2024-08-18,food delivery,46
+2024-08-25,food delivery,44
+2024-09-01,food delivery,47
+2024-09-08,food delivery,38
+2024-09-15,food delivery,40
+2024-09-22,food delivery,43
+2024-09-29,food delivery,42
+2024-10-06,food delivery,42
+2024-10-13,food delivery,41
+2024-10-20,food delivery,39
+2024-10-27,food delivery,39
+2024-11-03,food delivery,38
+2024-11-10,food delivery,40
+2024-11-17,food delivery,41
+2024-11-24,food delivery,37
+2024-12-01,food delivery,42
+2024-12-08,food delivery,42
+2024-12-15,food delivery,43
+2024-12-22,food delivery,47
+2024-12-29,food delivery,51
+2025-01-05,food delivery,45
+2025-01-12,food delivery,43
+2025-01-19,food delivery,58
+2025-01-26,food delivery,49
+2025-02-02,food delivery,49
+2025-02-09,food delivery,49
+2025-02-16,food delivery,50
+2025-02-23,food delivery,47
+2025-03-02,food delivery,43
+2025-03-09,food delivery,39
+2025-03-16,food delivery,40
+2025-03-23,food delivery,43
+2025-03-30,food delivery,44
+2025-04-06,food delivery,42
+2025-04-13,food delivery,41
+2025-04-20,food delivery,46
+2025-04-27,food delivery,45
+2025-05-04,food delivery,43
+2025-05-11,food delivery,40
+2025-05-18,food delivery,39
+2025-05-25,food delivery,41
+2025-06-01,food delivery,44
+2025-06-08,food delivery,46
+2025-06-15,food delivery,51
+2025-06-22,food delivery,67
+2025-06-29,food delivery,49
+2025-07-06,food delivery,89
+2025-07-13,food delivery,79
+2025-07-20,food delivery,90
+2025-07-27,food delivery,84
+2025-08-03,food delivery,71
+2025-08-10,food delivery,61
+2025-08-17,food delivery,54
+2025-08-24,food delivery,53
+2025-08-31,food delivery,52
+2025-09-07,food delivery,49
+2025-09-14,food delivery,60
+2025-09-21,food delivery,70
+2025-09-28,food delivery,58
+2025-10-05,food delivery,54
+2025-10-12,food delivery,55
+2025-10-19,food delivery,55
+2025-10-26,food delivery,59
+2025-11-02,food delivery,59
+2025-11-09,food delivery,62
+2025-11-16,food delivery,56
+2025-11-23,food delivery,55
+2025-11-30,food delivery,61
+2025-12-07,food delivery,61
+2025-12-14,food delivery,60
+2025-12-21,food delivery,63
+2025-12-28,food delivery,65
+2026-01-04,food delivery,58
+2026-01-11,food delivery,52
+2026-01-18,food delivery,58
+2026-01-25,food delivery,66
+2026-02-01,food delivery,66
+2026-02-08,food delivery,69
+2026-02-15,food delivery,71
+2026-02-22,food delivery,84
+2026-03-01,food delivery,72
+2026-03-08,food delivery,59
+2026-03-15,food delivery,61
+2026-03-22,food delivery,61
+2026-03-29,food delivery,62
+2026-04-05,food delivery,65
+2026-04-12,food delivery,62
+2026-04-19,food delivery,61
+2026-04-26,food delivery,58
+2026-05-03,food delivery,62
+2026-05-10,food delivery,63
+2026-05-17,food delivery,65
+2026-05-24,food delivery,63
+2026-05-31,food delivery,66
+2026-06-07,food delivery,69
+2026-06-14,food delivery,68
+2026-06-21,food delivery,66
+2026-06-28,food delivery,66
+2026-07-05,food delivery,64
+2026-07-12,food delivery,55
+2026-07-19,food delivery,55
+2026-07-26,food delivery,54
+2026-08-02,food delivery,53
+2026-08-09,food delivery,52
+2026-08-16,food delivery,49
+2026-08-23,food delivery,45
+2026-08-30,food delivery,46
+2026-09-06,food delivery,50
+2021-09-05,organic food,7
+2021-09-12,organic food,8
+2021-09-19,organic food,7
+2021-09-26,organic food,8
+2021-10-03,organic food,7
+2021-10-10,organic food,8
+2021-10-17,organic food,7
+2021-10-24,organic food,7
+2021-10-31,organic food,7
+2021-11-07,organic food,9
+2021-11-14,organic food,7
+2021-11-21,organic food,6
+2021-11-28,organic food,7
+2021-12-05,organic food,7
+2021-12-12,organic food,7
+2021-12-19,organic food,6
+2021-12-26,organic food,6
+2022-01-02,organic food,7
+2022-01-09,organic food,8
+2022-01-16,organic food,7
+2022-01-23,organic food,9
+2022-01-30,organic food,8
+2022-02-06,organic food,9
+2022-02-13,organic food,8
+2022-02-20,organic food,9
+2022-02-27,organic food,9
+2022-03-06,organic food,8
+2022-03-13,organic food,8
+2022-03-20,organic food,9
+2022-03-27,organic food,10
+2022-04-03,organic food,10
+2022-04-10,organic food,9
+2022-04-17,organic food,10
+2022-04-24,organic food,11
+2022-05-01,organic food,10
+2022-05-08,organic food,10
+2022-05-15,organic food,9
+2022-05-22,organic food,8
+2022-05-29,organic food,8
+2022-06-05,organic food,8
+2022-06-12,organic food,7
+2022-06-19,organic food,7
+2022-06-26,organic food,7
+2022-07-03,organic food,7
+2022-07-10,organic food,7
+2022-07-17,organic food,7
+2022-07-24,organic food,7
+2022-07-31,organic food,6
+2022-08-07,organic food,7
+2022-08-14,organic food,7
+2022-08-21,organic food,8
+2022-08-28,organic food,7
+2022-09-04,organic food,8
+2022-09-11,organic food,8
+2022-09-18,organic food,8
+2022-09-25,organic food,8
+2022-10-02,organic food,8
+2022-10-09,organic food,8
+2022-10-16,organic food,8
+2022-10-23,organic food,8
+2022-10-30,organic food,8
+2022-11-06,organic food,7
+2022-11-13,organic food,8
+2022-11-20,organic food,6
+2022-11-27,organic food,8
+2022-12-04,organic food,9
+2022-12-11,organic food,8
+2022-12-18,organic food,6
+2022-12-25,organic food,6
+2023-01-01,organic food,7
+2023-01-08,organic food,8
+2023-01-15,organic food,8
+2023-01-22,organic food,9
+2023-01-29,organic food,9
+2023-02-05,organic food,10
+2023-02-12,organic food,9
+2023-02-19,organic food,9
+2023-02-26,organic food,10
+2023-03-05,organic food,9
+2023-03-12,organic food,8
+2023-03-19,organic food,9
+2023-03-26,organic food,9
+2023-04-02,organic food,8
+2023-04-09,organic food,9
+2023-04-16,organic food,9
+2023-04-23,organic food,9
+2023-04-30,organic food,9
+2023-05-07,organic food,9
+2023-05-14,organic food,9
+2023-05-21,organic food,8
+2023-05-28,organic food,7
+2023-06-04,organic food,7
+2023-06-11,organic food,7
+2023-06-18,organic food,7
+2023-06-25,organic food,7
+2023-07-02,organic food,7
+2023-07-09,organic food,7
+2023-07-16,organic food,7
+2023-07-23,organic food,7
+2023-07-30,organic food,7
+2023-08-06,organic food,7
+2023-08-13,organic food,7
+2023-08-20,organic food,7
+2023-08-27,organic food,8
+2023-09-03,organic food,8
+2023-09-10,organic food,9
+2023-09-17,organic food,9
+2023-09-24,organic food,9
+2023-10-01,organic food,9
+2023-10-08,organic food,8
+2023-10-15,organic food,9
+2023-10-22,organic food,8
+2023-10-29,organic food,9
+2023-11-05,organic food,8
+2023-11-12,organic food,9
+2023-11-19,organic food,6
+2023-11-26,organic food,8
+2023-12-03,organic food,9
+2023-12-10,organic food,8
+2023-12-17,organic food,7
+2023-12-24,organic food,5
+2023-12-31,organic food,8
+2024-01-07,organic food,9
+2024-01-14,organic food,9
+2024-01-21,organic food,10
+2024-01-28,organic food,11
+2024-02-04,organic food,10
+2024-02-11,organic food,10
+2024-02-18,organic food,9
+2024-02-25,organic food,12
+2024-03-03,organic food,10
+2024-03-10,organic food,9
+2024-03-17,organic food,10
+2024-03-24,organic food,9
+2024-03-31,organic food,11
+2024-04-07,organic food,10
+2024-04-14,organic food,10
+2024-04-21,organic food,10
+2024-04-28,organic food,11
+2024-05-05,organic food,9
+2024-05-12,organic food,9
+2024-05-19,organic food,8
+2024-05-26,organic food,8
+2024-06-02,organic food,8
+2024-06-09,organic food,8
+2024-06-16,organic food,7
+2024-06-23,organic food,7
+2024-06-30,organic food,8
+2024-07-07,organic food,7
+2024-07-14,organic food,6
+2024-07-21,organic food,7
+2024-07-28,organic food,8
+2024-08-04,organic food,6
+2024-08-11,organic food,6
+2024-08-18,organic food,8
+2024-08-25,organic food,9
+2024-09-01,organic food,9
+2024-09-08,organic food,9
+2024-09-15,organic food,19
+2024-09-22,organic food,9
+2024-09-29,organic food,10
+2024-10-06,organic food,9
+2024-10-13,organic food,8
+2024-10-20,organic food,9
+2024-10-27,organic food,9
+2024-11-03,organic food,8
+2024-11-10,organic food,10
+2024-11-17,organic food,11
+2024-11-24,organic food,9
+2024-12-01,organic food,9
+2024-12-08,organic food,9
+2024-12-15,organic food,8
+2024-12-22,organic food,6
+2024-12-29,organic food,8
+2025-01-05,organic food,8
+2025-01-12,organic food,10
+2025-01-19,organic food,9
+2025-01-26,organic food,11
+2025-02-02,organic food,10
+2025-02-09,organic food,10
+2025-02-16,organic food,10
+2025-02-23,organic food,11
+2025-03-02,organic food,11
+2025-03-09,organic food,10
+2025-03-16,organic food,9
+2025-03-23,organic food,10
+2025-03-30,organic food,10
+2025-04-06,organic food,10
+2025-04-13,organic food,10
+2025-04-20,organic food,10
+2025-04-27,organic food,12
+2025-05-04,organic food,10
+2025-05-11,organic food,10
+2025-05-18,organic food,8
+2025-05-25,organic food,8
+2025-06-01,organic food,8
+2025-06-08,organic food,9
+2025-06-15,organic food,8
+2025-06-22,organic food,8
+2025-06-29,organic food,7
+2025-07-06,organic food,9
+2025-07-13,organic food,9
+2025-07-20,organic food,10
+2025-07-27,organic food,11
+2025-08-03,organic food,8
+2025-08-10,organic food,8
+2025-08-17,organic food,8
+2025-08-24,organic food,9
+2025-08-31,organic food,9
+2025-09-07,organic food,9
+2025-09-14,organic food,10
+2025-09-21,organic food,11
+2025-09-28,organic food,10
+2025-10-05,organic food,10
+2025-10-12,organic food,9
+2025-10-19,organic food,10
+2025-10-26,organic food,10
+2025-11-02,organic food,12
+2025-11-09,organic food,12
+2025-11-16,organic food,11
+2025-11-23,organic food,9
+2025-11-30,organic food,12
+2025-12-07,organic food,11
+2025-12-14,organic food,10
+2025-12-21,organic food,7
+2025-12-28,organic food,10
+2026-01-04,organic food,11
+2026-01-11,organic food,12
+2026-01-18,organic food,11
+2026-01-25,organic food,13
+2026-02-01,organic food,14
+2026-02-08,organic food,14
+2026-02-15,organic food,15
+2026-02-22,organic food,16
+2026-03-01,organic food,16
+2026-03-08,organic food,14
+2026-03-15,organic food,17
+2026-03-22,organic food,29
+2026-03-29,organic food,67
+2026-04-05,organic food,94
+2026-04-12,organic food,100
+2026-04-19,organic food,68
+2026-04-26,organic food,49
+2026-05-03,organic food,46
+2026-05-10,organic food,68
+2026-05-17,organic food,67
+2026-05-24,organic food,39
+2026-05-31,organic food,40
+2026-06-07,organic food,50
+2026-06-14,organic food,41
+2026-06-21,organic food,37
+2026-06-28,organic food,21
+2026-07-05,organic food,20
+2026-07-12,organic food,16
+2026-07-19,organic food,12
+2026-07-26,organic food,10
+2026-08-02,organic food,9
+2026-08-09,organic food,9
+2026-08-16,organic food,9
+2026-08-23,organic food,8
+2026-08-30,organic food,9
+2026-09-06,organic food,7
+2021-09-05,snack,31
+2021-09-12,snack,31
+2021-09-19,snack,30
+2021-09-26,snack,30
+2021-10-03,snack,30
+2021-10-10,snack,31
+2021-10-17,snack,31
+2021-10-24,snack,32
+2021-10-31,snack,29
+2021-11-07,snack,31
+2021-11-14,snack,32
+2021-11-21,snack,26
+2021-11-28,snack,31
+2021-12-05,snack,34
+2021-12-12,snack,33
+2021-12-19,snack,30
+2021-12-26,snack,27
+2022-01-02,snack,34
+2022-01-09,snack,35
+2022-01-16,snack,32
+2022-01-23,snack,35
+2022-01-30,snack,36
+2022-02-06,snack,45
+2022-02-13,snack,38
+2022-02-20,snack,35
+2022-02-27,snack,38
+2022-03-06,snack,35
+2022-03-13,snack,33
+2022-03-20,snack,35
+2022-03-27,snack,36
+2022-04-03,snack,41
+2022-04-10,snack,38
+2022-04-17,snack,37
+2022-04-24,snack,38
+2022-05-01,snack,37
+2022-05-08,snack,35
+2022-05-15,snack,35
+2022-05-22,snack,35
+2022-05-29,snack,34
+2022-06-05,snack,34
+2022-06-12,snack,33
+2022-06-19,snack,35
+2022-06-26,snack,35
+2022-07-03,snack,35
+2022-07-10,snack,36
+2022-07-17,snack,35
+2022-07-24,snack,35
+2022-07-31,snack,36
+2022-08-07,snack,37
+2022-08-14,snack,38
+2022-08-21,snack,38
+2022-08-28,snack,41
+2022-09-04,snack,38
+2022-09-11,snack,38
+2022-09-18,snack,37
+2022-09-25,snack,34
+2022-10-02,snack,36
+2022-10-09,snack,36
+2022-10-16,snack,35
+2022-10-23,snack,38
+2022-10-30,snack,34
+2022-11-06,snack,33
+2022-11-13,snack,33
+2022-11-20,snack,29
+2022-11-27,snack,35
+2022-12-04,snack,42
+2022-12-11,snack,41
+2022-12-18,snack,36
+2022-12-25,snack,31
+2023-01-01,snack,34
+2023-01-08,snack,36
+2023-01-15,snack,37
+2023-01-22,snack,40
+2023-01-29,snack,39
+2023-02-05,snack,44
+2023-02-12,snack,37
+2023-02-19,snack,37
+2023-02-26,snack,38
+2023-03-05,snack,36
+2023-03-12,snack,38
+2023-03-19,snack,39
+2023-03-26,snack,38
+2023-04-02,snack,35
+2023-04-09,snack,35
+2023-04-16,snack,38
+2023-04-23,snack,38
+2023-04-30,snack,39
+2023-05-07,snack,38
+2023-05-14,snack,36
+2023-05-21,snack,37
+2023-05-28,snack,34
+2023-06-04,snack,37
+2023-06-11,snack,36
+2023-06-18,snack,36
+2023-06-25,snack,36
+2023-07-02,snack,38
+2023-07-09,snack,38
+2023-07-16,snack,37
+2023-07-23,snack,37
+2023-07-30,snack,36
+2023-08-06,snack,39
+2023-08-13,snack,39
+2023-08-20,snack,38
+2023-08-27,snack,37
+2023-09-03,snack,38
+2023-09-10,snack,38
+2023-09-17,snack,37
+2023-09-24,snack,38
+2023-10-01,snack,37
+2023-10-08,snack,35
+2023-10-15,snack,37
+2023-10-22,snack,37
+2023-10-29,snack,35
+2023-11-05,snack,38
+2023-11-12,snack,37
+2023-11-19,snack,32
+2023-11-26,snack,37
+2023-12-03,snack,47
+2023-12-10,snack,45
+2023-12-17,snack,40
+2023-12-24,snack,31
+2023-12-31,snack,38
+2024-01-07,snack,40
+2024-01-14,snack,37
+2024-01-21,snack,42
+2024-01-28,snack,42
+2024-02-04,snack,43
+2024-02-11,snack,39
+2024-02-18,snack,40
+2024-02-25,snack,39
+2024-03-03,snack,42
+2024-03-10,snack,42
+2024-03-17,snack,43
+2024-03-24,snack,39
+2024-03-31,snack,44
+2024-04-07,snack,42
+2024-04-14,snack,41
+2024-04-21,snack,43
+2024-04-28,snack,39
+2024-05-05,snack,42
+2024-05-12,snack,37
+2024-05-19,snack,40
+2024-05-26,snack,38
+2024-06-02,snack,39
+2024-06-09,snack,39
+2024-06-16,snack,37
+2024-06-23,snack,38
+2024-06-30,snack,41
+2024-07-07,snack,40
+2024-07-14,snack,38
+2024-07-21,snack,42
+2024-07-28,snack,39
+2024-08-04,snack,40
+2024-08-11,snack,41
+2024-08-18,snack,41
+2024-08-25,snack,41
+2024-09-01,snack,43
+2024-09-08,snack,45
+2024-09-15,snack,44
+2024-09-22,snack,46
+2024-09-29,snack,40
+2024-10-06,snack,39
+2024-10-13,snack,39
+2024-10-20,snack,42
+2024-10-27,snack,42
+2024-11-03,snack,38
+2024-11-10,snack,43
+2024-11-17,snack,41
+2024-11-24,snack,38
+2024-12-01,snack,59
+2024-12-08,snack,52
+2024-12-15,snack,73
+2024-12-22,snack,36
+2024-12-29,snack,44
+2025-01-05,snack,46
+2025-01-12,snack,45
+2025-01-19,snack,42
+2025-01-26,snack,46
+2025-02-02,snack,47
+2025-02-09,snack,45
+2025-02-16,snack,45
+2025-02-23,snack,49
+2025-03-02,snack,49
+2025-03-09,snack,46
+2025-03-16,snack,45
+2025-03-23,snack,44
+2025-03-30,snack,45
+2025-04-06,snack,47
+2025-04-13,snack,47
+2025-04-20,snack,44
+2025-04-27,snack,53
+2025-05-04,snack,46
+2025-05-11,snack,45
+2025-05-18,snack,45
+2025-05-25,snack,44
+2025-06-01,snack,63
+2025-06-08,snack,52
+2025-06-15,snack,50
+2025-06-22,snack,49
+2025-06-29,snack,48
+2025-07-06,snack,100
+2025-07-13,snack,73
+2025-07-20,snack,64
+2025-07-27,snack,61
+2025-08-03,snack,56
+2025-08-10,snack,53
+2025-08-17,snack,51
+2025-08-24,snack,50
+2025-08-31,snack,52
+2025-09-07,snack,47
+2025-09-14,snack,49
+2025-09-21,snack,51
+2025-09-28,snack,48
+2025-10-05,snack,50
+2025-10-12,snack,50
+2025-10-19,snack,50
+2025-10-26,snack,47
+2025-11-02,snack,49
+2025-11-09,snack,49
+2025-11-16,snack,50
+2025-11-23,snack,44
+2025-11-30,snack,52
+2025-12-07,snack,56
+2025-12-14,snack,54
+2025-12-21,snack,43
+2025-12-28,snack,49
+2026-01-04,snack,55
+2026-01-11,snack,57
+2026-01-18,snack,58
+2026-01-25,snack,55
+2026-02-01,snack,66
+2026-02-08,snack,65
+2026-02-15,snack,61
+2026-02-22,snack,59
+2026-03-01,snack,57
+2026-03-08,snack,57
+2026-03-15,snack,57
+2026-03-22,snack,62
+2026-03-29,snack,78
+2026-04-05,snack,88
+2026-04-12,snack,95
+2026-04-19,snack,83
+2026-04-26,snack,74
+2026-05-03,snack,80
+2026-05-10,snack,86
+2026-05-17,snack,81
+2026-05-24,snack,69
+2026-05-31,snack,67
+2026-06-07,snack,80
+2026-06-14,snack,78
+2026-06-21,snack,70
+2026-06-28,snack,68
+2026-07-05,snack,62
+2026-07-12,snack,58
+2026-07-19,snack,59
+2026-07-26,snack,55
+2026-08-02,snack,57
+2026-08-09,snack,59
+2026-08-16,snack,57
+2026-08-23,snack,66
+2026-08-30,snack,55
+2026-09-06,snack,62
