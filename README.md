@@ -1,7 +1,7 @@
 # Food Trend Analysis: From Automated Collection to Machine Learning
 
 ## Overview
-This project tracks food and beverage search trends over time, using Google Trends as a proxy for consumer interest. It was built in three progressive stages — each adding a new layer of analytical depth on top of the same core dataset — moving from raw data collection, to visualization, to statistical/ML-based pattern discovery.
+This project tracks food and beverage search trends over time, using Google Trends as a proxy for consumer interest. It was built in four progressive stages — each adding a new layer of analytical depth on top of the same core dataset — moving from raw data collection, to visualization, to deeper pattern analysis, to statistical/ML-based pattern discovery.
 
 The guiding question throughout: **what can search behavior tell us about emerging consumer trends in the food industry, and how much of what we see is a real signal versus noise?**
 
@@ -13,25 +13,31 @@ Built a Python pipeline using the `pytrends` API to collect rising search querie
 ### [`02_dashboard/`](./02_dashboard) — Interactive Visualization
 Consolidated the collected data into a Looker Studio dashboard with KPI cards, category breakdowns, a time trend chart, and cross-filtering controls, to make the underlying patterns explorable rather than static.
 
+### [`02b_visualization_analysis/`](./02b_visualization_analysis) — Deeper Visual Analysis
+Re-examined the same Stage 1 dataset through Power BI to go beyond simple category counts — separating interest *frequency* from *intensity* and *volatility*, and identifying which specific keywords were driving repeated outlier spikes rather than one-off noise.
+
 ### [`03_ml_analysis/`](./03_ml_analysis) — Statistical & ML-Based Pattern Discovery
 Collected a complementary 5-year weekly time series (via `pytrends`' `interest_over_time`) for the same seven categories, then applied correlation analysis, K-means clustering, PCA, and two independent model-interpretation methods (SHAP, LIME) to uncover structure that wasn't visible from the dashboard alone.
 
 ## Key Findings
 
+- **A small number of keywords, not categories, drive most of the extreme spikes.** Despite `beverage` and `snack` making up only 39.6% of collected records, they accounted for 71.0% of total trend-score volume and 100% of statistical outliers. Just three keywords were responsible for nearly all of it, and each recurred as an outlier across most of the 16-day collection window rather than spiking once — evidence of sustained real-world attention (e.g. an ongoing food-safety story), not noise.
+- **Frequency and intensity are separate axes.** `dessert` appeared most often in the data but rarely spiked hard; `beverage` appeared less often but spiked much harder when it did. Reading category share (count) alone would have misjudged which categories actually matter most.
 - **Category interest clusters into two independent groups.** Correlation, clustering, PCA, SHAP, and LIME — five methods with entirely different underlying logic — all converged on the same conclusion: `food delivery` moves independently of the other six categories, while `beverage`, `drink`, `snack`, and `organic food` move together.
 - **An algorithm-discovered structure outperformed a human hypothesis.** An initial assumption that categories peak together every April (seasonal) didn't hold up under 3–5 years of data — only `organic food` and `snack` showed a genuine recurring spring peak. Instead, K-means independently surfaced a different pattern: a distinct "elevated interest" period concentrated in late 2025–2026, unrelated to any single calendar month.
 - **`food delivery` tells its own story.** Rather than a seasonal pattern, it shows a multi-year structural swing — peaking during 2021 (pandemic-era demand), declining through 2024, and recovering into 2025–2026 — a trend visible only because a longer time series was collected specifically for this purpose.
 
 ## Tech Stack
-Python (`pytrends`, `pandas`, `scikit-learn`, `shap`, `lime`, `matplotlib`, `seaborn`) · SQLite · macOS `cron` · Looker Studio
+Python (`pytrends`, `pandas`, `scikit-learn`, `shap`, `lime`, `matplotlib`, `seaborn`) · SQLite · macOS `cron` · Looker Studio · Power BI
 
 ## Repository Structure
 ```
 food-trend-analysis/
-├── 01_data_pipeline/     # Collection, filtering, automation
-├── 02_dashboard/         # Looker Studio dashboard source data + screenshots
-├── 03_ml_analysis/       # Correlation, clustering, PCA, SHAP, LIME
-└── reports/              # Written summary report (Word)
+├── 01_data_pipeline/            # Collection, filtering, automation
+├── 02_dashboard/                # Looker Studio dashboard source data + screenshots
+├── 02b_visualization_analysis/  # Power BI: intensity, volatility, outlier analysis
+├── 03_ml_analysis/              # Correlation, clustering, PCA, SHAP, LIME
+└── reports/                     # Written summary report (Word)
 ```
 Each stage folder has its own README with implementation detail and results specific to that step.
 
