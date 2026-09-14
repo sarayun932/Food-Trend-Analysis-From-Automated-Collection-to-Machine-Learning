@@ -26,7 +26,10 @@ Built in Looker Studio, connected via CSV upload, with:
 - Daily collection trend, as both a line chart and stacked bar charts (absolute count and percentage share), all sorted chronologically by a calculated date field (`CollectedDate`, parsed from the raw `YYYYMMDD` text column)
 - Category filter control with cross-filtering enabled across all charts
 
-[대시보드 전체 화면 캡처 (dashboard_screenshot.png)]
+<img width="847" height="725" alt="image" src="https://github.com/user-attachments/assets/a24ab7e3-9a7f-46c3-82de-bd25934f7a71" />
+<img width="857" height="224" alt="image" src="https://github.com/user-attachments/assets/77809796-a1b5-4d2b-910d-be2d5771d593" />
+<img width="852" height="694" alt="image" src="https://github.com/user-attachments/assets/5f46b102-d811-44be-9f29-688fd5689e9a" />
+
 
 ## Key Observations
 - **69.1% of keywords (47 of 68) appeared on 2 or more separate collection days** — evidence that most of what's captured is a recurring signal rather than one-off noise.
