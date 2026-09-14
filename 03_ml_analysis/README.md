@@ -19,11 +19,14 @@ The keyword-level data used in Stages 1–2 (`query`, `category`, `trend_score`)
 
 ### 1–2. Data Reshaping + Correlation (`step1_2_correlation.py`)
 Reshaped long-format data into wide format, then computed pairwise correlation across the 7 categories.
-- `beverage`, `drink`, `snack`, `organic food` are strongly correlated (r = 0.71–0.85)
+
+![Wide format preview](wide_format_preview.png)
+- `beverage` is the hub of a tightly correlated group: `beverage`–`organic food` (0.85), `beverage`–`snack` (0.82), `beverage`–`drink` (0.81), plus `drink`–`snack` (0.81) and `organic food`–`snack` (0.71)
+- `drink`–`organic food` is the one exception within this group, correlating only moderately (0.59) despite each individually correlating strongly with `beverage` and `snack`
 - `dessert` and `fast food` show moderate correlation (r = 0.57)
 - `food delivery` is essentially uncorrelated with all other categories (r = -0.21 to 0.18)
 
-*(`correlation_heatmap.png`)*
+![Correlation heatmap between food categories](correlation_heatmap.png)
 
 ### 3. K-Means Clustering (`step3_clustering.py`)
 Standardized all 7 categories (`StandardScaler`) before clustering, since raw scales differ widely (e.g. `food delivery` ~60–90 vs. `organic food` ~7–20). Optimal cluster count (k=2) selected by silhouette score.
@@ -31,7 +34,7 @@ Standardized all 7 categories (`StandardScaler`) before clustering, since raw sc
 - **Cluster 1** (35 weeks, "unusually high-interest periods"): nearly all categories elevated simultaneously, *except* `food delivery`
 - Re-tested an initial "April seasonality" hypothesis across the 5-year window; only `organic food` and `snack` showed a consistent April peak. `beverage` (May), `drink` (June), `fast food` (July), and `dessert` (November) each peaked in different months — the hypothesis was rejected. Cluster 1's structural cause remains unexplained within this analysis and would need external data (news, market events) to investigate further.
 
-*(`cluster_timeline.png`)*
+![Cluster assignment over time](cluster_timeline.png)
 
 ### 4. PCA (`step4_pca.py`)
 PC1 (57.4%) + PC2 (16.7%) explain 74.1% of total variance.
@@ -39,7 +42,7 @@ PC1 (57.4%) + PC2 (16.7%) explain 74.1% of total variance.
 - **PC2**: dominated almost entirely by `food delivery` (loading 0.83)
 - Plotting K-means clusters on the PC1–PC2 plane visually confirmed Cluster 1 separating clearly along PC1
 
-*(`pca_scatter.png`)*
+![PCA scatter plot colored by cluster](pca_scatter.png)
 
 **Interim conclusion**: Correlation, clustering, and PCA — three independent methods — all converge on the same finding: (1) four categories move together on one shared axis, and (2) `food delivery` moves entirely independently.
 
@@ -50,7 +53,7 @@ Trained a Random Forest classifier to predict whether a given week belongs to Cl
 - `food delivery` again shows the lowest importance (0.007), with SHAP values clustered near zero
 - High `drink` and `beverage` values push predictions strongly toward "unusual period"
 
-*(`shap_summary.png`)*
+![SHAP summary plot](shap_summary.png)
 
 ### 6. LIME Cross-Validation (`step5b_lime.py`)
 Applied LIME — a different interpretability method (local linear approximation around each prediction, vs. SHAP's game-theoretic attribution) — to the same Random Forest model, to check whether an independently-computed importance ranking agrees with SHAP.
@@ -70,7 +73,8 @@ Applied LIME — a different interpretability method (local linear approximation
 - `dessert` ranks 6th in both methods
 - Individual sample explanation: for one "normal period" week, `beverage`, `drink`, and `organic food` contributed most to the classification, while `food delivery`'s contribution was near zero
 
-*(`shap_vs_lime_comparison.png`, `lime_example_explanation.png`)*
+![SHAP vs LIME feature importance comparison](shap_vs_lime_comparison.png)
+![LIME explanation for one sample](lime_example_explanation.png)
 
 ## Key Findings
 - **Five independent methods — correlation, clustering, PCA, SHAP, and LIME — all converge on the same structural conclusion: `food delivery` moves independently of the other 6 food categories.** This consistency across methods with different underlying assumptions suggests a genuine structural pattern in the data, not a coincidence of any single technique.
@@ -86,6 +90,7 @@ Applied LIME — a different interpretability method (local linear approximation
 ├── step5_rf_shap.py                   # Step 5: Random Forest + SHAP
 ├── step5b_lime.py                     # Step 5b: LIME cross-validation
 ├── food_categories_5yr_trend_US.csv   # Raw long-format data
+├── wide_format_preview.png
 ├── food_categories_wide.csv           # Wide-format data (262 weeks x 7 categories)
 ├── food_categories_with_cluster.csv   # Wide-format + cluster labels
 ├── correlation_heatmap.png
