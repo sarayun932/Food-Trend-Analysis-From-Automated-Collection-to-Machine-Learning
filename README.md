@@ -1,7 +1,7 @@
 # Food Trend Analysis: From Automated Collection to Machine Learning
 
 ## Overview
-This project tracks food and beverage search trends over time, using Google Trends as a proxy for consumer interest. It was built in four progressive stages — each adding a new layer of analytical depth on top of the same core dataset — moving from raw data collection, to visualization, to deeper pattern analysis, to statistical/ML-based pattern discovery.
+This project tracks food and beverage search trends over time, using Google Trends as a proxy for consumer interest. It was built in six progressive stages — each adding a new layer of analytical depth on top of the same core dataset — moving from raw data collection, to visualization, to deeper pattern analysis, to statistical/ML-based pattern discovery, to a validated business framework, to an AI-connected automated reporting workflow.
 
 The guiding question throughout: **what can search behavior tell us about emerging consumer trends in the food industry, and how much of what we see is a real signal versus noise?**
 
@@ -19,16 +19,24 @@ Re-examined the same Stage 1 dataset through Looker Studio to go beyond simple c
 ### [`03_ml_analysis/`](./03_ml_analysis) — Statistical & ML-Based Pattern Discovery
 Collected a complementary 5-year weekly time series (via `pytrends`' `interest_over_time`) for the same seven categories, then applied correlation analysis, K-means clustering, PCA, and two independent model-interpretation methods (SHAP, LIME) to uncover structure that wasn't visible from the dashboard alone.
 
+### [`04_frame_analysis/`](./04_frame_analysis) — Frame-Based Analysis (Keyword RFM)
+Applied a validated business framework (RFM) to the keyword-level dataset, treating each keyword as a "customer" scored on recency, frequency, and magnitude — segmenting all 68 keywords into actionable categories (Core Trend, Emerging, Dormant, Faded, Steady) and defining monitoring priorities per category.
+
+### [`05_ai_strategy/`](./05_ai_strategy) — AI Strategy: MCP-Connected Automated Reporting
+Connected Claude directly to the project's local data via MCP, then used a Claude Project with fixed instructions — including an explicit tie-breaking rule discovered and fixed after catching a reproducibility bug — so the same request against updated data always regenerates a report in the same structure.
+
 ## Key Findings
 
+- **Volume and durability point to different categories.** `beverage` and `snack` lead on raw record count and total trend-score volume, but `organic food` and `dessert` convert a far higher *share* of their keywords into sustained "Core Trend" status (40.0% and 30.8% vs. 13.3% and 20.0%) — reading total volume alone would have overstated beverage/snack's structural importance and missed organic food's consistency.
 - **A small number of keywords, not categories, drive most of the extreme spikes.** Despite `beverage` and `snack` making up only 39.6% of collected records, they accounted for 71.0% of total trend-score volume and 100% of statistical outliers. Just three keywords were responsible for nearly all of it, and each recurred as an outlier across most of the 16-day collection window rather than spiking once — evidence of sustained real-world attention (e.g. an ongoing food-safety story), not noise.
 - **Frequency and intensity are separate axes.** `dessert` appeared most often in the data but rarely spiked hard; `beverage` appeared less often but spiked much harder when it did. Reading category share (count) alone would have misjudged which categories actually matter most.
 - **Category interest clusters into two independent groups.** Correlation, clustering, PCA, SHAP, and LIME — five methods with entirely different underlying logic — all converged on the same conclusion: `food delivery` moves independently of the other six categories, while `beverage`, `drink`, `snack`, and `organic food` move together.
 - **An algorithm-discovered structure outperformed a human hypothesis.** An initial assumption that categories peak together every April (seasonal) didn't hold up under 3–5 years of data — only `organic food` and `snack` showed a genuine recurring spring peak. Instead, K-means independently surfaced a different pattern: a distinct "elevated interest" period concentrated in late 2025–2026, unrelated to any single calendar month.
 - **`food delivery` tells its own story.** Rather than a seasonal pattern, it shows a multi-year structural swing — peaking during 2021 (pandemic-era demand), declining through 2024, and recovering into 2025–2026 — a trend visible only because a longer time series was collected specifically for this purpose.
+- **A reproducibility bug was caught before it reached production.** The first attempt at an automated report generated different segment counts across identical re-runs on the same data, traced to an unspecified tie-breaking rule in tercile scoring — fixed by pinning the rule explicitly in the Claude Project instructions and re-verified for determinism.
 
 ## Tech Stack
-Python (`pytrends`, `pandas`, `scikit-learn`, `shap`, `lime`, `matplotlib`, `seaborn`) · SQLite · macOS `cron` · Looker Studio
+Python (`pytrends`, `pandas`, `scikit-learn`, `shap`, `lime`, `matplotlib`, `seaborn`) · SQLite · macOS `cron` · Looker Studio · Claude (MCP, Claude Projects)
 
 ## Repository Structure
 ```
@@ -37,6 +45,8 @@ food-trend-analysis/
 ├── 02_dashboard/                # Looker Studio dashboard source data + screenshots
 ├── 02b_visualization_analysis/  # Looker Studio: intensity, volatility, outlier analysis
 ├── 03_ml_analysis/              # Correlation, clustering, PCA, SHAP, LIME
+├── 04_frame_analysis/           # Keyword RFM segmentation
+├── 05_ai_strategy/              # MCP connection + Claude Project automated reporting
 └── reports/                     # Written summary report (Word)
 ```
 Each stage folder has its own README with implementation detail and results specific to that step.
